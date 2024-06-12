@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(img/bg6.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a img{
+    height: 8rem;
+}
+.menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.906);
+    margin-right: 3rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.menu a:hover{
+    color:  rgb(250, 167, 16);
+    transition: all ease 0.3s;
+}
+
+.register{
+    border-radius: 20px;
+    padding: 5px 2px 5px 2px;
+    margin-right: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.906);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.register a{
+    text-decoration: none;
+    margin: 1.5rem;
+    color: black;
+    font-weight: 700;
+}
+.register:hover{
+    opacity: 1;
+    background-color:  rgb(250, 167, 16);
+    transition: all ease 0.3s;
+}
+
+/* .h-content{
+    text-align: center;
+    padding: 200px;
+} */
+
+.h-content{
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 3.5rem;
+}
+
+.h-content h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.h-content h4{
+    font-size: 1rem;
+    color: white;
+}
+
+.h-content .btn{
+    margin-top: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(195, 90, 88);
+    color: white;
+}
